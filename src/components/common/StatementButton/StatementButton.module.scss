@@ -1,0 +1,48 @@
+@import "styles/styleguide/variables.scss";
+@import "styles/styleguide/mixins.scss";
+
+.statementButton {
+  border-radius: 8px;
+  border: 1px solid $medium-grey-color;
+  font-family: $font-dm-sans;
+  font-size: $aaaaaa-font;
+  text-transform: none;
+  height: 3.5rem;
+  outline: none;
+  position: relative;
+  text-align: left;
+  width: 355px;
+  min-width: 350px;
+  height: 60px;
+  justify-content: space-between;
+  padding-left: 28px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  @include respond-below(sm) {
+    text-transform: none;
+  }
+  :hover{
+    // pointer-events: none;
+    background-color: transparent;
+  }
+  .icon {
+    max-height: 35px;
+  }
+  .iconRounded {
+    border-radius: 0 8px 8px 0;
+  }
+}
+.selected{
+  background-color: $primary2-color;
+  color: $white-color;
+}
+.onHover{
+  :hover{
+    background-color: $primary2-color;
+  }
+}
+.iconFullWidth {
+  padding-right: 0;
+}

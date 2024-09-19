@@ -1,0 +1,17 @@
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.eAyARa:disabled {
+  visibility: hidden;
+}
+
+.badgeContainer {
+  background-color: red;
+  max-width: 400px;
+  min-width: 350px;
+  margin: 0rem 0;
+}
+.redcontainer{
+  background: rebeccapurple;
+}

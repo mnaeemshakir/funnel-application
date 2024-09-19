@@ -1,0 +1,36 @@
+[
+  {
+    "path": "/",
+    "component": "Root",
+    "exact": true
+  },
+  {
+    "path": "/page-not-found",
+    "component": "PageNotFound"
+  },
+  {
+    "path": "/success",
+    "component": "Success",
+    "navVariant": "light"
+  },
+  {
+    "path": "/premium",
+    "component": "SuccessPage",
+    "navVariant": "light"
+  },
+  {
+    "path": "/onboarding",
+    "component": "Onboarding",
+    "navVariant": "light"
+  },
+  {
+    "path": "/checkout",
+    "component": "Checkout",
+    "navVariant": "light"
+  },
+  {
+    "path": "/about",
+    "component": "About",
+    "navVariant": "light"
+  }
+]

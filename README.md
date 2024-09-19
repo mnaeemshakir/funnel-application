@@ -1,2 +1,1 @@
-# funnel-application
-Repo showcasing integrations of onboarding funnel
+# mindshine-web-join

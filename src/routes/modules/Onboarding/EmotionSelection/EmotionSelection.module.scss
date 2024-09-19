@@ -1,0 +1,95 @@
+@import "styles/styleguide/variables.scss";
+@import "styles/styleguide/mixins.scss";
+
+.EmotionSelection {
+  height: 100%;
+  max-width: 400px;
+
+  .subtitleContainer {
+    margin-bottom: 40px;
+  }
+
+  .heading {
+    font-family: $font-dm-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $aaaaaaa-font;
+    text-align: center;
+    margin: 0;
+  }
+
+  // .redcontainer {
+  //   background: rebeccapurple;
+
+  //   .rec.rec-arrow:disabled {
+  //     visibility: hidden;
+  //   }
+  // }
+  .container{
+    margin: 4rem 0 0 0 ;
+  }
+
+  .badgeContainer {
+    max-width: 400px;
+    min-width: 350px;
+    // margin: 4rem 0;
+
+
+    .page {
+      .row {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+      }
+    }
+    .arrowContainer{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 15px;
+      margin-top: -27px;
+    }
+
+    .imageSizing {
+      width: 20%;
+      // min-width: 150px;
+    }
+
+    .imageClass {
+      cursor: pointer;
+    }
+  }
+
+  .emotionButton {
+    height: 96px;
+    width: 96px;
+    border: 1px solid $light-grey-color;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 10px;
+    :nth-child(3n){
+      margin-right: 0px;
+    }
+
+    .emotionButtonSelected {
+      border: 1px solid $primary1-color;
+      border-color: $primary1-color;
+    }
+
+    .image {
+      height: 40px;
+      width: 40px;
+    }
+
+    .text {
+      font-family: $font-dm-sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $aa-font;
+      word-wrap: break-word;
+      text-align: center;
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

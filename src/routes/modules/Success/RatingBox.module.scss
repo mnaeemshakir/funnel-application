@@ -1,0 +1,76 @@
+@import "styles/styleguide/variables.scss";
+@import "styles/styleguide/mixins.scss";
+
+.boxRoot {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 343px;
+    // height: 336.34px;
+
+    /* V1 / Light / FFFFFF */
+    background: #FFFFFF;
+    /* Gray / Light Grey */
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    margin: 25px 0;
+
+    .upperBox {
+        width: 100%;
+        border-bottom: 1px solid #E7E7E7;
+        padding: 14px;
+        display: flex;
+        /* align-content: space-between; */
+        flex-flow: row;
+        justify-content: space-between;
+        margin: 0px;
+
+        .fullRating {
+            width: 85px;
+            height: 20px;
+        }
+
+        .name {
+            /* Secondary / 18 Regular */
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            color: #85878C;
+            margin: 0px;
+            font-size: $aaaa-font;
+        }
+    }
+
+    .bottomBox {
+        padding: 14px;
+
+        .heading {
+            color: #1B2645;
+            font-family: $font-dm-sans;
+            font-style: normal;
+            font-weight: 700;
+            font-size: $aaaaa-font;
+            word-wrap: break-word;
+            text-align: center;
+            width: 100%;
+        }
+
+        .text {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            color: #85878C;
+            margin: 0px;
+            font-size: $aaaa-font;
+        }
+    }
+}
